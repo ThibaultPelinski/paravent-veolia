@@ -1,0 +1,22 @@
+{
+    "name": "thibault/paravent-veolia",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Thibault\\ParaventVeolia\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thibault",
+            "email": "thibault.pelinski10@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "phpunit/phpunit": "^9.5"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6"
+    }
+}
